@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 module.exports = {
 	entry: {
-		'build': './src/game-of-life-anim.js',
+		'dist': './src/game-of-life-anim.js',
 		'docs': './src/game-of-life-anim.js'
 	},
 	output: {
