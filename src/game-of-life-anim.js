@@ -17,12 +17,16 @@
 		init();
 		var centerX = Math.floor(field[0].length / 2);
 		var centerY = Math.floor(field.length / 2);
-		printToField(field, centerY - 3, centerX - 3, [
-			[1,1,1,0,1],
-			[1,0,0,0,0],
-			[0,0,0,1,1],
-			[0,1,1,0,1],
-			[1,0,1,0,1]
+		printToField(field, centerY - 4, centerX - 3, [
+			// 23334M
+			[0,0,1,0,0],
+			[1,1,0,0,0],
+			[0,1,0,0,0],
+			[1,0,0,1,0],
+			[0,0,0,0,1],
+			[0,1,0,0,1],
+			[0,0,1,0,1],
+			[0,1,0,0,0]
 		]);
 		startTimer();
 	});
